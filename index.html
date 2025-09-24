@@ -14,33 +14,68 @@
       <img src="logo-irycis.png" alt="Hospital irycis">
     </div>
 
-    <h1>Welcome to the Usability Evaluation</h1>
+    <h1>Gracias por participar en la evaluación de la plataforma</h1>
     <p>
-      Thank you for participating! This study evaluates the usability of our web platform 
-      for the ultrasound assessment of adnexal masses.
+      Por favor, realice las siguientes tareas de forma secuencial y con la misma naturalidad con la que utilizaría cualquier sistema en su práctica clínica habitual.
+      En caso de no poder completar alguna de las tareas, puede pasar a la siguiente. 
+      Si lo desea, anote la dificultad encontrada para poder recoger su observación posteriormente.
     </p>
 
-    <h2>Instructions</h2>
+    <h2>Instrucciones para la evaluación de usabilidad</h2>
     <ol>
-      <li>Log in with the provided test credentials.</li>
-      <li>Complete the questionnaire for <b>Patient A</b> (no mass).</li>
-      <li>Complete the questionnaire for <b>Patient B</b> (with mass), generate ECO-SCORE, and download the report.</li>
-      <li>Add a simulated histopathology result for Patient B.</li>
-      <li>Check the list of questionnaires and export data as CSV.</li>
-      <li>Log out securely.</li>
+      <li>
+        <strong>Acceso a la plataforma:</strong>  
+        Inicie sesión en la plataforma utilizando las credenciales de prueba proporcionadas a través del sistema de autenticación Keycloak.
+      </li>
+    
+      <li>
+        <strong>Registro de un caso sin masa (Paciente A):</strong>  
+        Cree un nuevo cuestionario para el <em>Paciente A</em> (caso ficticio sin masa anexial) y cumpliméntelo en su totalidad hasta el final.
+      </li>
+    
+      <li>
+        <strong>Registro de un caso con masa (Paciente B) y cálculo de ECO-SCORE:</strong>  
+        Complete un segundo cuestionario para el <em>Paciente B</em> (caso ficticio con masa anexial). 
+        Active la funcionalidad de cálculo del <strong>ECO-SCORE</strong> y verifique el resultado obtenido.
+      </li>
+    
+      <li>
+        <strong>Generación de informe clínico:</strong>  
+        Genere el informe clínico correspondiente al <em>Paciente B</em> y proceda a descargarlo en formato PDF.
+      </li>
+    
+      <li>
+        <strong>Incorporación de resultado histopatológico:</strong>  
+        Registre un resultado histopatológico simulado asociado al <em>Paciente B</em> y compruebe que queda correctamente almacenado en la plataforma.
+      </li>
+    
+      <li>
+        <strong>Revisión de listados de casos:</strong>  
+        Acceda a la sección de listados de cuestionarios y citas. Localice los casos previamente creados (<em>Paciente A</em> y <em>Paciente B</em>) y verifique que aparecen registrados en la lista.
+      </li>
+    
+      <li>
+        <strong>Exportación de datos:</strong>  
+        Desde la sección de descargas, exporte los datos disponibles en formato CSV y asegúrese de que la operación se realiza con éxito.
+      </li>
+    
+      <li>
+        <strong>Finalización de la sesión:</strong>  
+        Cierre sesión en la plataforma utilizando el procedimiento habitual de desconexión segura.
+      </li>
     </ol>
 
-    <h2>Next step</h2>
+    <h2>Siguiente paso</h2>
     <p>
-      After completing the tasks, please fill in the usability questionnaire:
+      Tras finalizar las tareas, por favor complete el cuestionario de usabilidad:
     </p>
     <a class="button" href="https://forms.gle/TU-ENLACE" target="_blank">
-      Go to SUS Questionnaire
+      Ir al cuestionario SUS
     </a>
 
     <footer>
       <p>Version: v1.0 – September 2025</p>
-      <p>Contact: <a href="mailto:equipo@upm.es">equipo@upm.es</a></p>
+      <!--<p>Contact: <a href="mailto:equipo@upm.es">equipo@upm.es</a></p>-->
     </footer>
   </div>
 </body>
