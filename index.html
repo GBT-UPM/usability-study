@@ -22,45 +22,46 @@
     </p>
 
     <h2>Instrucciones para la evaluación de usabilidad</h2>
-    <ol>
+    <ol>  
       <li>
         <strong>Acceso a la plataforma:</strong><br>
-        <a href="https://hryc-eco-data.netlify.app/" target="_blank">
-          Acceder a la plataforma
-        </a><br>
         Inicie sesión en la plataforma utilizando las credenciales de prueba proporcionadas 
-        a través del sistema de autenticación Keycloak.<br>
+        a través del sistema de autenticación.<br><br>
+        <em>Si no dispone de usuario propio o no recuerda sus credenciales, puede utilizar la siguiente cuenta temporal (activa únicamente durante el periodo de evaluación):</em><br>
+        <ul>
+          <li><strong>Usuario:</strong> clinico_test</li>
+          <li><strong>Contraseña:</strong> clinico_123</li>
+        </ul>
+        👉 <a class="button" href="https://hryc-eco-data.netlify.app/" target="_blank">
+          Acceder a la plataforma
+        </a>
       </li>
-    
+   
       <li>
-        <strong>Registro de un caso sin masa (Paciente A):</strong>  
-        Cree un nuevo cuestionario para el <em>Paciente A</em> (caso ficticio sin masa anexial) y cumpliméntelo en su totalidad hasta el final.
-      </li>
-    
-      <li>
-        <strong>Registro de un caso con masa (Paciente B) y cálculo de ECO-SCORE:</strong>  
-        Complete un segundo cuestionario para el <em>Paciente B</em> (caso ficticio con masa anexial). 
+        <strong>Registro de un caso con masa anexial:</strong>  
+        Inicie un cuestionario para el <em>Paciente</em> (caso ficticio con masa anexial). 
+        Complete todos los campos obligatorios y cualquier otro que considere relevante.
+        Pulse <strong>Continuar</strong> 
+        Escriba un aconclusion si lo considera necesario y pulse <strong>Guardar</strong>.
         Active la funcionalidad de cálculo del <strong>ECO-SCORE</strong> y verifique el resultado obtenido.
       </li>
     
       <li>
-        <strong>Generación de informe clínico:</strong>  
-        Genere el informe clínico correspondiente al <em>Paciente B</em> y proceda a descargarlo en formato PDF.
+        <strong>Generación de informe clínico:</strong> 
+        Acceda a la sección de revisión de citas. localice la cita con el <em>Paciente</em> previamente completado.
+        Genere el informe clínico correspondiente pulsando sobre el icono de la <em>Impresora</em> incluya la probabilidad de malignidad y proceda a descargarlo en formato PDF.
       </li>
     
       <li>
         <strong>Incorporación de resultado histopatológico:</strong>  
-        Registre un resultado histopatológico simulado asociado al <em>Paciente B</em> y compruebe que queda correctamente almacenado en la plataforma.
+        Acceda a la sección de revisión de cuestionarios. localice la cita con el <em>Paciente</em> previamente completado.
+        Registre un resultado histopatológico simulado pulsando sobre el icono del  <em>Lapicero</em> incluya el resultado histopatológico y guarde los cambios.
+      
       </li>
-    
-      <li>
-        <strong>Revisión de listados de casos:</strong>  
-        Acceda a la sección de listados de cuestionarios y citas. Localice los casos previamente creados (<em>Paciente A</em> y <em>Paciente B</em>) y verifique que aparecen registrados en la lista.
-      </li>
-    
+        
       <li>
         <strong>Exportación de datos:</strong>  
-        Desde la sección de descargas, exporte los datos disponibles en formato CSV y asegúrese de que la operación se realiza con éxito.
+        Acceda a la sección de descargas en el menu lateral, exporte los <em>resultados de los pacientes</em>  en formato excel y asegúrese de que la operación se realiza con éxito.
       </li>
     
       <li>
