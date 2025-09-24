@@ -32,12 +32,13 @@ body, h1, h2, p, ol, li {
     align-items: center;
     gap: 2rem;
     margin-bottom: 1.5rem;
-    max-width: 25%;
+    
   }
   
   .logos img {
     max-height: 80px;
     width: auto;
+    max-width: 25%;
   }
   
   /* Botón */
